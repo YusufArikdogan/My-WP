@@ -2,6 +2,29 @@
 * PHP Email Form Validation - v3.2
 * URL: https://bootstrapmade.com/php-email-form/
 * Author: BootstrapMade.com
+function sendEmail() {
+  // Form verilerini toplayın.
+  const formData = new FormData(document.querySelector("form"));
+
+  // Arka planda gönderin.
+  fetch("https://formsubmit.co/yusufarikdogann@gmail.com", {
+    method: "POST",
+    body: formData,
+  })
+    .then(response => response.text())
+    .then(responseText => {
+      // Formu temizleyin.
+      document.querySelector("form").reset();
+
+      // Kullanıcıyı orijinal sayfaya geri yönlendirin.
+      window.location.href = document.querySelector("form").dataset.returnUrl;
+    });
+}
+
+// Gönder düğmesine tıklandığında işlevi tetikleyin.
+document.querySelector(".send-email").addEventListener("click", sendEmail);
+
+
 */
 (function () {
   "use strict";
