@@ -380,6 +380,13 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .img-fluid-1 {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px; /* ya da istediğin boyut */
+  height: auto;
+  border-radius: 50%;
+}
 
 /*--------------------------------------------------------------
 # Facts
