@@ -658,10 +658,7 @@ section {
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
-  order: 1;
-  display: flex;
-  flex-direction: row;
+  width: 50%;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
