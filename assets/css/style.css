@@ -656,22 +656,24 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px; /* İçerikler arasındaki boşluk */
   padding-top: 40px;
 }
 
 .portfolio-details .portfolio-details-slider {
-  width: 45%; /* Resimlerin genişliği */
-  margin-right: 5%; /* İstenilen aralığı sağlar */
+  flex: 1 1 45%; /* Resimlerin genişliği */
+  max-width: 45%; /* Maksimum genişlik */
 }
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  display: block; /* Resimler arasındaki boşlukları kaldırır */
 }
 
 .portfolio-details .portfolio-info {
-  width: 45%; /* Metinlerin genişliği */
+  flex: 1 1 45%; /* Metinlerin genişliği */
+  max-width: 45%; /* Maksimum genişlik */
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
   padding: 30px;
 }
