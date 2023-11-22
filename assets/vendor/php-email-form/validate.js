@@ -17,7 +17,7 @@ function sendEmail() {
       document.querySelector("form").reset();
 
       // Kullanıcıyı orijinal sayfaya geri yönlendirin.
-      window.location.href = document.querySelector("form").dataset.returnUrl;
+      window.location.href = "https://my-wp-yusuf-arikdogans-projects.vercel.app/";
     });
 }
 
