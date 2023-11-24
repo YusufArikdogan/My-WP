@@ -555,14 +555,21 @@ section {
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
 }
+
+@media (max-width: 767px) {
+  .portfolio .portfolio-wrap {
+    /* Adjust the size of the portfolio items */
+    max-width: 100%; /* or any other suitable width */
+  }
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
-  left: 30px;
-  right: 30px;
-  top: 30px;
-  bottom: 30px;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
@@ -585,11 +592,11 @@ section {
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   position: absolute;
-  top: 35px;
-  left: 35px;
+  top: 20px;
+  left: 20px;
   border-top: 3px solid #d7dce1;
   border-left: 3px solid #d7dce1;
   transition: all 0.5s ease 0s;
@@ -598,11 +605,11 @@ section {
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   position: absolute;
-  bottom: 35px;
-  right: 35px;
+  bottom: 20px;
+  right: 20px;
   border-bottom: 3px solid #d7dce1;
   border-right: 3px solid #d7dce1;
   transition: all 0.5s ease 0s;
@@ -652,22 +659,13 @@ section {
   bottom: 15px;
   right: 15px;
 }
-.portfolio .portfolio-item p {
-  width: 50%; /* Varsayılan genişlik */
-}
 
-/* Tablet ekranları için stil */
-@media only screen and (min-width: 600px) and (max-width: 991px) {
-  .portfolio .portfolio-item p {
-    width: 60%; /* Tablet ekranları için özel genişlik */
-  }
-}
-
-/* Telefon ekranları için stil */
-@media only screen and (max-width: 599px) {
-  .portfolio .portfolio-item p {
-    width: 30%; /* Telefon ekranları için özel genişlik */
-  }
+.about .img-fluid-2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px; /* ya da istediğin boyut */
+  height: auto;
+  border-radius: 50%;
 }
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -677,7 +675,6 @@ section {
 }
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
-  
 
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
