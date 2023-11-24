@@ -632,6 +632,13 @@ section {
   }
 }
 
+/* Telefon ekranları için stil */
+@media only screen and (max-width: 599px) {
+  .portfolio .portfolio-wrap .portfolio-links {
+    width: 80%; /* Telefon ekranları için özel genişlik */
+  }
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #45505b;
@@ -690,7 +697,14 @@ section {
 
 /* Telefon ekranları için stil */
 @media only screen and (max-width: 599px) {
-  .portfolio-details .portfolio-details-slider p {
+  .portfolio-details .portfolio-details-slider {
+    width: 80%; /* Telefon ekranları için özel genişlik */
+  }
+}
+
+/* Telefon ekranları için stil */
+@media only screen and (max-width: 599px) {
+  .portfolio-details .portfolio-description {
     width: 80%; /* Telefon ekranları için özel genişlik */
   }
 }
