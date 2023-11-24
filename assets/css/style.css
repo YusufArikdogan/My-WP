@@ -521,6 +521,14 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+
+/* Telefon ekranları için stil */
+@media only screen and (max-width: 599px) {
+  .portfolio .portfolio-item {
+    width: 80%; /* Telefon ekranları için özel genişlik */
+  }
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -555,6 +563,14 @@ section {
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
 }
+
+/* Telefon ekranları için stil */
+@media only screen and (max-width: 599px) {
+  .portfolio .portfolio-wrap {
+    width: 80%; /* Telefon ekranları için özel genişlik */
+  }
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
@@ -608,6 +624,14 @@ section {
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
+
+/* Telefon ekranları için stil */
+@media only screen and (max-width: 599px) {
+  .portfolio .portfolio-wrap .portfolio-inf p {
+    width: 80%; /* Telefon ekranları için özel genişlik */
+  }
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #45505b;
@@ -666,7 +690,7 @@ section {
 
 /* Telefon ekranları için stil */
 @media only screen and (max-width: 599px) {
-  .portfolio-details .portfolio-details-slider img p {
+  .portfolio-details .portfolio-details-slider p {
     width: 80%; /* Telefon ekranları için özel genişlik */
   }
 }
