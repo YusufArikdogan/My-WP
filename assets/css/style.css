@@ -621,14 +621,6 @@ section {
   margin: 0;
 }
 
-@media (min-width: 600px) {
-  .portfolio .portfolio-wrap .portfolio-info p {
-    width: 80%;
-    height: auto;
-    max-height: 10px
-  }
-}
-
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
@@ -661,13 +653,7 @@ section {
   bottom: 15px;
   right: 15px;
 }
-@media (min-width: 600px) {
-  .portfolio .portfolio-item p {
-    width: 80%;
-    height: auto;
-    max-height: 10px
-  }
-}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -678,11 +664,10 @@ section {
   width: 100%;
 }
 
-@media (min-width: 600px) {
-  .portfolio-details .portfolio-details-slider p {
-    width: 80%;
-    height: auto;
-    max-height: 10px
+/* Telefon ekranları için stil */
+@media only screen and (max-width: 599px) {
+  .portfolio-details .portfolio-details-slider img p {
+    width: 80%; /* Telefon ekranları için özel genişlik */
   }
 }
 
@@ -703,14 +688,6 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
-}
-
-@media (min-width: 600px) {
-  .portfolio-details .portfolio-info p {
-    width: 80%;
-    height: auto;
-    max-height: 10px
-  }
 }
 
 .portfolio-details .portfolio-info h3 {
