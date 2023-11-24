@@ -655,6 +655,8 @@ section {
 @media (min-width: 992px) {
   .portfolio .portfolio-item p {
     width: 80%;
+    height: auto;
+    max-height: 300px
   }
 }
 /*--------------------------------------------------------------
