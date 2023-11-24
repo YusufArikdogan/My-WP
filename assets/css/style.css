@@ -670,7 +670,7 @@ section {
 }
 
 @media (min-width: 992px) {
-  .portfolio-details .portfolio-details-dlider p {
+  .portfolio-details .portfolio-details-slider p {
     width: 80%;
     height: auto;
     max-height: 25px
