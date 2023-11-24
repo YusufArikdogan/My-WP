@@ -627,7 +627,7 @@ section {
 
 /* Telefon ekranları için stil */
 @media only screen and (max-width: 599px) {
-  .portfolio .portfolio-wrap .portfolio-inf p {
+  .portfolio .portfolio-wrap .portfolio-info {
     width: 80%; /* Telefon ekranları için özel genişlik */
   }
 }
