@@ -653,7 +653,7 @@ section {
   right: 15px;
 }
 .portfolio .portfolio-item p {
-  width: 100%; /* Varsayılan genişlik */
+  width: 50%; /* Varsayılan genişlik */
 }
 
 /* Tablet ekranları için stil */
@@ -666,7 +666,7 @@ section {
 /* Telefon ekranları için stil */
 @media only screen and (max-width: 599px) {
   .portfolio .portfolio-item p {
-    width: 80%; /* Telefon ekranları için özel genişlik */
+    width: 30%; /* Telefon ekranları için özel genişlik */
   }
 }
 /*--------------------------------------------------------------
