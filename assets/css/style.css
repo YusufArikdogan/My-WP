@@ -652,7 +652,11 @@ section {
   bottom: 15px;
   right: 15px;
 }
-
+@media (min-width: 992px) {
+  .portfolio .portfolio-item p {
+    width: 80%;
+  }
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
